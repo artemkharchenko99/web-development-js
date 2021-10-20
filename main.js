@@ -1,7 +1,7 @@
-//TASK 1
+//Задача №1
 
-const firstRow = prompt('Введите первое сообщение');
-const secondRow = prompt('Введите второе сообщение');
+const firstRow = prompt('Введите первую строку');
+const secondRow = prompt('Введите вторую строку');
 const arr = prompt();
 
 function getRow(firstRow) {
@@ -22,14 +22,14 @@ function getRow2(secondRow) {
     console.log(result3);
 
     if (result3 > 0) {
-        alert('1 more');
+        alert('У первой строки больше');
     } else if (result3 = 0){
-        alert('no more');
+        alert('Строки равные ');
     } else {
-        alert('2 more');
+        alert('У второй строки больше');
     } 
 
-//TASK 2
+//Задача №2
 
 
 const formattedPhone = (phone) => {
